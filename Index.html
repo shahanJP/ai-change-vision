@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AI Culture Club Vision Board</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main class="board">
+  <header class="hero">
+    <p class="eyebrow">AI CULTURE CLUB | CHANGE MANAGEMENT</p>
+    <h1>Better change, not just faster change.</h1>
+    <p class="lead">Create more capacity, better insight and stronger adoption, while keeping human judgement at the centre.</p>
+  </header>
+
+  <section class="vision">
+    <strong>OUR VISION</strong>
+    <span>Use AI to elevate how we practise change, creating more capacity for thinking, engagement, influence and adoption.</span>
+  </section>
+
+  <section class="pillars" aria-label="Vision priorities">
+    <article><b>01</b><h3>CAPACITY</h3><p>Reduce repeatable effort and redirect time to higher-value change work.</p></article>
+    <article><b>02</b><h3>INSIGHT</h3><p>Use AI and change data to understand impact, readiness and adoption better.</p></article>
+    <article><b>03</b><h3>HUMAN JUDGEMENT</h3><p>Challenge, contextualise, influence and remain accountable for outcomes.</p></article>
+    <article><b>04</b><h3>ADOPTION</h3><p>Measure success by whether change is understood, adopted and sustained.</p></article>
+  </section>
+
+  <section class="journey-section">
+    <div class="section-heading">
+      <div>
+        <p class="eyebrow">OUR JOURNEY</p>
+        <h2>The Copilot licence gives us the vehicle. Capability determines how well we drive it.</h2>
+      </div>
+      <p>Hover or click the licence markers to explore how we progress.</p>
+    </div>
+
+    <div class="journey-wrap">
+      <img src="car-journey.png" class="journey-image" alt="Driving journey from learner through practice to confident AI-enabled change practice">
+
+      <button class="hotspot hotspot-l" data-stage="learn" aria-label="Learn the road"><span>L</span><small>LEARN</small></button>
+      <button class="hotspot hotspot-p" data-stage="practise" aria-label="Practise in real conditions"><span>P</span><small>PRACTISE</small></button>
+      <button class="hotspot hotspot-drive" data-stage="drive" aria-label="Drive with judgement"><span>✓</span><small>DRIVE</small></button>
+
+      <div class="destination">
+        <span>DESTINATION</span>
+        <strong>BETTER CHANGE</strong>
+      </div>
+    </div>
+  </section>
+
+  <footer>AI gives us the capability to move faster. <strong>Human judgement ensures we are heading in the right direction.</strong></footer>
+</main>
+
+<aside class="detail-card" id="detailCard" aria-live="polite" aria-hidden="true">
+  <button id="closeCard" class="close-card" aria-label="Close details">×</button>
+  <div class="card-head">
+    <div id="cardBadge" class="card-badge">L</div>
+    <div><p id="cardStep">LEARNER</p><h2 id="cardTitle">Learn the Road</h2></div>
+  </div>
+  <p id="cardTagline" class="card-tagline"></p>
+  <div class="how-title">HOW</div>
+  <ul id="cardList"></ul>
+  <div id="cardOutcome" class="card-outcome"></div>
+</aside>
+
+<script src="script.js"></script>
+</body>
+</html>
